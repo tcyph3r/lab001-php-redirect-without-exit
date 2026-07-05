@@ -14,7 +14,7 @@ A PHP session check sends a 302 redirect when no valid session exists but never 
 docker compose up --build
 ```
 
-App runs at http://localhost:8080
+App runs at http://localhost:8888
 
 ## Credentials
 

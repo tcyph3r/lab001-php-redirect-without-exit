@@ -36,7 +36,7 @@ if (!isset($_SESSION['user'])) {
 ## How to reproduce
 
 1. Start Burp Suite and set your browser to proxy through it
-2. Without logging in, navigate to http://localhost:8080/admin/records.php
+2. Without logging in, navigate to http://localhost:8888/admin/records.php
 3. The browser lands on the login page
 4. In Burp, find the 302 response to /admin/records.php
 5. Check the response body - the full admin page and its data are there

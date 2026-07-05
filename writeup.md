@@ -26,7 +26,7 @@ The browser only sees the 302 status code and follows the redirect. A proxy read
 
 1. Start the lab: `docker compose up --build`
 2. Open Burp Suite, proxy your browser through it
-3. Without logging in, visit http://localhost:8080/admin/records.php
+3. Without logging in, visit http://localhost:8888/admin/records.php
 4. Observe the browser redirect to the login page
 5. In Burp HTTP history, open the 302 response to /admin/records.php
 6. Scroll the response body or click Render
